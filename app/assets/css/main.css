@@ -1,0 +1,30 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #fffdf6;
+  color: #1a1a1a;
+  overflow-x: clip;
+}
+
+.hero-pattern {
+  background-color: #fffdf6;
+  background-image:
+    radial-gradient(circle at 88% 18%, rgba(245, 197, 24, 0.45) 0, rgba(245, 197, 24, 0.45) 180px, transparent 181px),
+    radial-gradient(#f5c518 0.7px, transparent 0.7px);
+  background-size: auto, 22px 22px;
+}
+
+@media (max-width: 640px) {
+  .hero-pattern {
+    background-image:
+      radial-gradient(circle at 120% 0%, rgba(245, 197, 24, 0.4) 0, rgba(245, 197, 24, 0.4) 110px, transparent 111px),
+      radial-gradient(#f5c518 0.7px, transparent 0.7px);
+  }
+}
+
+.lime-corner {
+  background: linear-gradient(135deg, transparent 50%, #c6d63c 50%);
+}
+
+.gold-ring {
+  box-shadow: 0 10px 30px rgba(26, 26, 26, 0.08), 0 0 0 6px #fff, 0 0 0 10px #f5c518;
+}
